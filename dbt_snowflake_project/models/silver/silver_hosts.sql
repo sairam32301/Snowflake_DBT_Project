@@ -1,5 +1,4 @@
-{{ config(materialized='incremental'
-,unique_id='host_id') }}
+{{ config(materialized='incremental', unique_key='host_id') }}
 
 select 
    host_id,
