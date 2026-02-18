@@ -1,0 +1,13 @@
+dbt_snowflake_project:
+  outputs:
+    dev:
+      account: CUZGUYO-MSC48929
+      database: DBT_SNOWFLAKE
+      password: S@iram32301234
+      role: ACCOUNTADMIN
+      schema: dbt_schema
+      threads: 1
+      type: snowflake
+      user: SAIRAM32
+      warehouse: COMPUTE_WH
+  target: dev

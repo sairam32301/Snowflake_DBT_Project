@@ -1,0 +1,10 @@
+sources:
+  - name: staging
+    database: DBT_SNOWFLAKE 
+    schema: STAGING  
+    tables:
+      - name: BOOKINGS
+      - name: HOSTS
+      - name: LISTINGS
+  
+   
